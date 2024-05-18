@@ -45,8 +45,8 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             groupId = "com.github.toluw"
-            artifactId = "rounded-image"
-            version = "1.0"
+            artifactId = "Rounded-Image-View"
+            version = "1.2"
 
             afterEvaluate {
                 from(components["release"])
